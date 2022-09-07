@@ -33,6 +33,12 @@ GEM
       unicode-display_width (>= 1.4.0, < 3.0)
     rubocop-ast (1.15.1)
       parser (>= 3.0.1.1)
+    rubocop-fjord (0.2.0)
+      rubocop (>= 1.0)
+      rubocop-performance
+    rubocop-performance (1.13.2)
+      rubocop (>= 1.7.0, < 2.0)
+      rubocop-ast (>= 0.4.0)
     ruby-progressbar (1.11.0)
     unicode-display_width (2.1.0)
 
@@ -41,7 +47,7 @@ PLATFORMS
 
 DEPENDENCIES
   rspec
-  rubocop
+  rubocop-fjord
 
 BUNDLED WITH
    2.3.13

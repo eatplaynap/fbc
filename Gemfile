@@ -3,4 +3,6 @@
 source 'https://rubygems.org'
 
 gem 'rspec'
-gem 'rubocop', require: false
+group :development do
+  gem 'rubocop-fjord', require: false
+end
